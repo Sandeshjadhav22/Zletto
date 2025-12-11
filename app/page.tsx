@@ -46,9 +46,9 @@ useEffect(() => {
   const services = [
     { icon: <Wrench className="w-6 h-6" />, name: "Electrician", color: "from-amber-500 to-orange-500" },
     { icon: <Droplets className="w-6 h-6" />, name: "Plumber", color: "from-amber-500 to-orange-500" },
-    { icon: <Hammer className="w-6 h-6" />, name: "Carpenter", color: "from-amber-500 to-orange-500" },
+    // { icon: <Hammer className="w-6 h-6" />, name: "Carpenter", color: "from-amber-500 to-orange-500" },
     { icon: <Sparkles className="w-6 h-6" />, name: "Home Cleaning", color: "from-amber-500 to-orange-500" },
-    { icon: <Bug className="w-6 h-6" />, name: "Pest Control", color: "from-amber-500 to-orange-500" },
+    { icon: <Bug className="w-6 h-6" />, name: "Society Maintenance", color: "from-amber-500 to-orange-500" },
   ];
 
   const steps = [
@@ -115,7 +115,7 @@ useEffect(() => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-orange-600 to-orange-600 rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center">
                 <Wrench className="w-5 h-5 text-white" />
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-orange-600 to-orange-700 bg-clip-text text-transparent">Zletto</span>
@@ -158,10 +158,10 @@ useEffect(() => {
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <button onClick={() => goToBook()} className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2">
-                  <span>Book Now</span>
+                  <span>Book Your Free visit</span>
                 </button>
 
-                <a href="https://wa.me/919876543210" className="bg-white border-2 border-slate-200 text-slate-900 px-8 py-4 rounded-full text-lg font-semibold hover:border-slate-300 hover:shadow-lg transition-all duration-300 flex items-center justify-center space-x-2">
+                <a href="https://wa.me/919619151523" className="bg-white border-2 border-slate-200 text-slate-900 px-8 py-4 rounded-full text-lg font-semibold hover:border-slate-300 hover:shadow-lg transition-all duration-300 flex items-center justify-center space-x-2">
                   <Phone className="w-5 h-5" /> <span>WhatsApp Us</span>
                 </a>
               </div>
@@ -273,7 +273,7 @@ useEffect(() => {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-gradient-to-br from-pink-600 to-rose-600 rounded-lg flex items-center justify-center">
+                <div className="w-8 h-8 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center">
                   <Wrench className="w-5 h-5 text-white" />
                 </div>
                 <span className="text-xl font-bold">Zletto</span>
@@ -283,8 +283,8 @@ useEffect(() => {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <div className="space-y-2 text-slate-400">
-                <p>WhatsApp: +91 98765 43210</p>
-                <p>Hotline: +91 98765 43210</p>
+                <p>WhatsApp: +91 9619151523</p>
+                <p>Call : +91 9619151523</p>
               </div>
             </div>
             <div>

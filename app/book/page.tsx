@@ -118,7 +118,7 @@ export default function BookPage() {
             </div>
 
             <div>
-              <label className="block text-sm font-semibold text-slate-700 mb-2">Area / Locality</label>
+              <label className="block text-sm font-semibold text-slate-700 mb-2">Area / Landmark</label>
               <input
                 name="area"
                 placeholder="Area / Locality"
@@ -208,8 +208,8 @@ export default function BookPage() {
                   <div className="text-xs text-slate-600">Minutes</div>
                 </div>
                 <div className="rounded-lg bg-slate-50 px-3 py-2">
-                  <div className="text-sm font-semibold">Support</div>
-                  <div className="text-xs text-slate-600">WhatsApp: <a href="tel:+919876543210" className="text-orange-600 font-semibold">+91 98765 43210</a></div>
+                  <div className="text-sm  text-orange-600 font-semibold">Support</div>
+                  <div className="text-xs text-slate-600">WhatsApp: <a href="tel:+919876543210" className="text-orange-600 font-semibold">+91 9619151523</a></div>
                 </div>
               </div>
             </div>
@@ -220,7 +220,7 @@ export default function BookPage() {
         <div className="mt-5">
           <div className="rounded-xl bg-white border border-slate-100 p-4 shadow-sm text-sm text-slate-700">
             <strong>Need help?</strong>
-            <p className="mt-1">Call or WhatsApp us at <a href="tel:+919876543210" className="text-orange-600 font-semibold">+91 98765 43210</a></p>
+            <p className="mt-1">Call or WhatsApp us at <a href="tel:+919876543210" className="text-orange-600 font-semibold">+91 9619151523</a></p>
           </div>
         </div>
 
