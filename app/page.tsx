@@ -149,7 +149,7 @@ useEffect(() => {
                   <span className="word-enter">{current}</span>
                 </span>
 
-                <span className="bg-gradient-to-r from-slate-700 to-slate-700 bg-clip-text text-transparent block mb-3">your door in</span>
+                <span className="bg-gradient-to-r from-slate-700 to-slate-700 bg-clip-text text-transparent block mb-3"> at your door in</span>
 
                 <span className="bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent block">20 minutes</span>
               </h1>
